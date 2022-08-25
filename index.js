@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 var answer = readlineSync.question('What is your name? :');
-console.log("welcome" + answer + " do you know purva? ");
+console.log("welcome " + answer + " do you know purva? ");
 var answer1 = readlineSync.question("where do i live?");
 var score = 0;
 if (answer1 === "Bhavnagar") {
